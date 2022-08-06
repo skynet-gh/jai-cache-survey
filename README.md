@@ -32,3 +32,13 @@ Then run `./main`. On my system I get:
 065536 KiB cycles per iteration = 486
 131072 KiB cycles per iteration = 478
 ```
+
+If you have `pdflatex` installed, you will also get a PDF with a chart, and on Linux also a `.svg`.
+
+Here is a chart from a machine with 32 KiB L1 cache and 256 KiB L2 cache per core:
+
+![result1](./result1.svg)
+
+Here is a chart from a machine with 64 KiB L1 cache and 512 KiB L2 cache per core:
+
+![result2](./result2.svg)
