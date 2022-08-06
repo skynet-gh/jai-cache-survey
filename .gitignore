@@ -1,3 +1,11 @@
 /.build/
+/*.aux
 /*.exe
+/*.log
 /*.pdb
+/*.pdf
+/*.svg
+/*.tex
+/*base-*
+/*bench-*
+/main
